@@ -1,0 +1,70 @@
+# -----------------------------
+
+# Terraform
+
+# -----------------------------
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# -----------------------------
+
+# Sensitive variables
+
+# -----------------------------
+
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+
+# -----------------------------
+
+# CLI configuration files
+
+# -----------------------------
+
+.terraformrc
+terraform.rc
+
+# -----------------------------
+
+# Logs
+
+# -----------------------------
+
+*.log
+
+# -----------------------------
+
+# IDE / Editor files
+
+# -----------------------------
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+
+# OS files
+
+# -----------------------------
+
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+
+# Kubernetes / Helm (optional)
+
+# -----------------------------
+
+kubeconfig
